@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>SAVE THE EARTH</title>
+		
+		<!-- Bootstrap CDN -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+		crossorigin="anonymous">
+		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+		crossorigin="anonymous"></script>
+		
+		<!-- JQuerry -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" 
+			integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+			crossorigin="anonymous"></script>
+			
+		<link rel="icon" href="images/charmander.png">
+			
+		<script src="logic.js"></script>
+		
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+
+	<body onload="iniciaJogo()">
+		<div class="topo">
+			<table width=100%>
+				<tr>
+					<td>
+						<audio id="musica" controls>
+							<source src="midia/sounds/musica.mp3" type="audio/mpeg">
+						</audio>
+					</td>
+					<td>
+						<h1>SAVE THE EARTH</h1>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="painelEsquerdo">
+			<table align="center">
+				<tr>
+					<td>
+						<img src="images/meteoro.png" width="50px"/>
+					</td>
+					<td>
+						<span id="meteoros"></span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/explosao.png" width="70px" height="70px"/>
+					</td>
+					<td>
+						<span id="explosoes"></span>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<table>
+				<tr>
+					<td id="imagemCronometro">
+						<span id="cronometro"></span>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<table align="center">
+				<tr>
+					<td>
+						<button class="btn btn-danger" onclick="start()">START</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="cenario" class="terra"></div>
+		
+		<a href = 'blog3.html' target = '_self'>
+			<img src = "images/kabuto.png"
+			height = 100 width = 100 align = 'right'/>
+		</a>
+		
+		<h3 align = 'right'>Obrigado pela atenção :D</h3>
+		
+	</body>
+</html>

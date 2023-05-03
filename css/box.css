@@ -1,0 +1,57 @@
+/* border-radius - criar uma caixa com bordas arredondadas*/
+
+#box{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+
+/* box-sizing */
+
+#box2{
+	width: 400px;
+	height: 300px;
+	background: yellow;
+	padding: 80px;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+
+#box3{
+	width: 340px;
+	height: 340px;
+	color: black;
+	padding: 50px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background: url("images/wartortle2.png");
+}
+
+
+#box4 h1,p{
+	background: rgba(255,0,0,0.5);
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+
+#box4{
+	width: 500px;
+	height: 500px;
+	color: black;
+	padding: 50px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	/*background: linear-gradient(to right,purple,cyan);*/
+	background: radial-gradient(blue,yellow,green,blue);
+}
+
+
+
+
+

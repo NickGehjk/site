@@ -6,7 +6,7 @@ html, body, .capa{
 body{
 	background: url("images/ruido.png"),
 				/*url("images/fundo3.jpg"),*/
-				linear-gradient(50deg, #635f5c, #330475);
+				linear-gradient(50deg, #ac2bcc, #330475);
 	background-attachment: fixed;
 	overflow-x: hidden;
 }
@@ -33,17 +33,25 @@ nav.navbar-transparent{
 .divisor{
 	width: 1px;
 	height: 16px;
-	background: white;
+	background: rgb(0, 0, 0);
 	margin: 16px 10px;
 }
 
-
 .navbar-inverse .navbar-nav>li>a, footer .nav a{
-	color: #330475;
+	color: #ac2bcc;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #000000;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
-	color: red;
+	color: #ffffff;
+	background: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #ac2bcc;
 	background: none;
 }
 
@@ -70,37 +78,37 @@ nav.navbar-transparent{
 	transition: background 0.4s, color 0.4s;
 }
 
-#btn-azul{
+#btn-um{
 	color: black;
-	background: #1E90FF;
+	background: #a39aa6;
 }
 
-#btn-azul:hover{
-	background-color: blue;
-	color: white;
+#btn-um:hover{
+	background-color: rgb(0, 0, 0);
+	color: #a39aa6;
 }
 
-#btn-vermelho{
-	color: white;
+#btn-dois{
+	color: #a39aa6;
 	background-color: transparent;
-	border: 2px solid red;
+	border: 2px solid rgb(0, 0, 0);
 }
 
-#btn-vermelho:hover{
-	background-color: red;
-	color: white;
+#btn-dois:hover{
+	background-color: rgb(0, 0, 0);
+	color: #a39aa6;
 }
 
 /* */
 
 
-#jogos{
+#explicacao{
 	background: rgb(0, 0, 0);
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-.jogos{
+.explicacao{
 	padding: 20px 5px 20px 10px;
 	/* borda superior/direita/inferior/esquerda */
 }
@@ -128,7 +136,7 @@ padding: unset;
 
 /* */
 
-#explicacao{
+#carrossel{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: rgb(255, 255, 255);
@@ -166,44 +174,44 @@ footer{
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	font-size: 40px;
-	color: red;
+	color: rgb(255, 255, 255);
 }
 
 #rodape h4{
-	color: #919496;
-	font-size: 12px;
+	color: #ffffff;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
-#jogos h2{
-	color: #042786;
+#explicacao h2{
+	color: #ac2bcc;
 	font-family: 'Lucida Sans';
 }
 
-#jogos h3{
-	color: #042786;
+#explicacao h3{
+	color: #ffffff;
 	font-family: 'Lucida Sans';
 }
 
-#explicacao p{
+#carrossel p{
 	color: rgb(0, 0, 0);
 	font-size: 1.5em;
 }
 
-#jogos p{
+#explicacao p{
 	color: rgb(255, 255, 255);
 	font-size: 1.5em;
 	/*font-family: 'Lucida Sans';*/
 }
 
-#jogos li{
+#explicacao li{
 	color: rgb(255, 255, 255);
 	font-size: 1em;
 	/*font-family: 'Lucida Sans';*/
 }
 
-#explicacao h3{
-	color: #02164f;
+#carrossel h3{
+	color: #fa0202;
 }
 
 /* 

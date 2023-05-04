@@ -1,0 +1,88 @@
+html, body, .capa{
+	height: 100%;
+	overflow: auto;
+}
+
+body{
+	background: url("images/ruido.png"),
+				/*url("images/fundo4.jpg"),*/
+				linear-gradient(50deg, #af6933, #2a7c45);
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.img-logo{
+	height: 50px;
+	width: 70px;
+	display: block;
+	background: url("images/logo.png") no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/* */
+
+
+#jogos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.jogos{
+	padding: 10px 10px 0px;
+	/* borda superior/horizontal/inferior */
+}
+
+/*
+.jogos{
+	padding: 10px 0px 10px 0px;
+}
+
+.jogos2{
+	padding: 10px 0px 10px 100px;
+}
+*/
+
+
+#frase{
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	font-size: 50px;
+	color: white;
+}
+
+/* */
+
+#teste{
+	/*background: white;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.teste{
+	padding: 10px 10px 0px;
+	/* borda superior/horizontal/inferior */
+}
+
+#teste h1{
+	color: white;
+}
+
+#teste h2,#teste h4{
+	color: rgb(0, 0, 0);
+}
+
+#teste p, #teste h3{
+	color: white;
+}
+
+#teste a{
+	color: blue;
+	text-decoration: none;
+}
+
+#teste a:hover{
+	background-color: white;
+	color: black;
+}

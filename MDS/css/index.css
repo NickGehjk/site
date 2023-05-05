@@ -6,7 +6,7 @@ html, body, .capa{
 body{
 	background: url("images/ruido.png"),
 				/*url("images/fundo3.jpg"),*/
-				linear-gradient(50deg, #ac2bcc, #330475);
+				linear-gradient(50deg, #330475, #ac2bcc);
 	background-attachment: fixed;
 	overflow-x: hidden;
 }
@@ -202,8 +202,12 @@ footer{
 	color: #ffffff;
 }
 
+#carrossel h2{
+	color: #000000;
+}
+
 #carrossel p{
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	font-size: 1.5em;
 }
 
@@ -219,9 +223,7 @@ footer{
 	/*font-family: 'Lucida Sans';*/
 }
 
-#carrossel h3{
-	color: #fa0202;
-}
+
 
 /* 
 

@@ -6,7 +6,7 @@ html, body, .capa{
 body{
 	background: url("images/ruido.png"),
 				/*url("images/fundo4.jpg"),*/
-				linear-gradient(50deg, #af6933, #2a7c45);
+				linear-gradient(50deg, #7e2bcc, #8c8792);
 	background-attachment: fixed;
 	overflow-x: hidden;
 }
@@ -22,37 +22,10 @@ body{
 
 /* */
 
-
-#jogos{
-	background: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
+#titulo{
+	text-align: center;
+	font-size: 40px;
 }
-
-.jogos{
-	padding: 10px 10px 0px;
-	/* borda superior/horizontal/inferior */
-}
-
-/*
-.jogos{
-	padding: 10px 0px 10px 0px;
-}
-
-.jogos2{
-	padding: 10px 0px 10px 100px;
-}
-*/
-
-
-#frase{
-	font-weight: 700;
-	letter-spacing: -0.04em;
-	font-size: 50px;
-	color: white;
-}
-
-/* */
 
 #teste{
 	/*background: white;*/
@@ -65,24 +38,24 @@ body{
 	/* borda superior/horizontal/inferior */
 }
 
-#teste h1{
+.navbar-inverse .navbar-nav>li>a{
+	color: #000000;
+}
+
+#teste h2{
+	font-size: 25px;
+}
+
+#teste p{
 	color: white;
+	font-size: 16px;
 }
 
-#teste h2,#teste h4{
-	color: rgb(0, 0, 0);
-}
-
-#teste p, #teste h3{
-	color: white;
-}
-
-#teste a{
-	color: blue;
-	text-decoration: none;
-}
-
-#teste a:hover{
-	background-color: white;
+#texto a{
 	color: black;
 }
+
+/*#texto a:hover{
+	background-color: white;
+	color: black;
+}*/

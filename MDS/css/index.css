@@ -37,22 +37,26 @@ nav.navbar-transparent{
 	margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a, footer .nav a{
-	color: #ac2bcc;
-}
-
 .navbar-inverse .navbar-nav>li>a{
 	color: #000000;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+footer .nav a{
+	color: #ac2bcc;
+}
+
+/*.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
 	color: #ffffff;
 	background: none;
-}
+}*/
 
 .navbar-inverse .navbar-nav>li>a:hover{
 	color: #ac2bcc;
 	background: none;
+}
+
+footer .nav a:hover{
+	color: #ffffff;
 }
 
 

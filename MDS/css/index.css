@@ -109,7 +109,8 @@ footer .nav a:hover{
 #explicacao{
 	background: rgb(0, 0, 0);
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
+	text-align: justify;
 }
 
 .explicacao{
@@ -142,8 +143,14 @@ padding: unset;
 
 #carrossel{
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	color: rgb(255, 255, 255);
+	text-align: justify;
+}
+
+.carrossel{
+	padding: 20px 5px 20px 10px;
+	/* borda superior/direita/inferior/esquerda */
 }
 
 .rotacionar{
@@ -189,12 +196,10 @@ footer{
 
 #explicacao h2{
 	color: #ac2bcc;
-	font-family: 'Lucida Sans';
 }
 
 #explicacao h3{
 	color: #ffffff;
-	font-family: 'Lucida Sans';
 }
 
 #carrossel p{
